@@ -1,0 +1,39 @@
+{
+    "name": "Simpsons",
+    "displayName": "Simpsons",
+    "description": "Simpsons themed vs code extension",
+    "version": "0.1.0",
+    "author": {
+        "name": "Garima Singh"
+    },
+    "publisher": "Simpsons",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "simpsons",
+                "uiTheme": "vs-dark",
+                "path": "./themes/simpsons-color-theme.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-wordcount/issues",
+        "email": "garima.cs18@nitp.ac.in"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/vscode-wordcount.git"
+    },
+    "homepage": "https://github.com/Microsoft/vscode-wordcount/blob/master/README.md"
+}
